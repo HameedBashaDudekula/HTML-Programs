@@ -21,7 +21,7 @@
                 </td>
             </tr>
             <tr>
-                <td><input type="text" id="id1" name="name1"></td>
+                <td><input type="text" id="id1" name="name1" placeholder="Enter your First Name" required></td>
                 <td><input type="text" id="id2" name="name2"></td>
             </tr>
             <tr>
@@ -38,8 +38,10 @@
                     <input type="date">
                 </td>
                 <td>
-                    <input type="radio" value="Male">Male
-                    <input type="radio" value="Female">Female
+                    <input type="radio" value="Male" name="gender">Male
+                    <input type="radio" value="Female" name="gender">Female
+                    
+
                 </td>
             </tr>
             <tr>
@@ -64,6 +66,7 @@
             <tr>
                 <td>
                 <select>
+                    <option value="">Select your option</option>
                     <option value="C">C</option>
                     <option value="C++">C++</option>
                     <option value="Java">Java</option>
@@ -72,7 +75,12 @@
             </tr>
             <tr>
                 <td>
-                    <input type="submit" style="background-color: blue; color: white;">
+                    <input type="submit" style="background-color: blue; color: white; ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes"> Subscribe to newsletter
                 </td>
             </tr>
 
